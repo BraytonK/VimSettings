@@ -56,7 +56,7 @@ set listchars=eol:¬,tab:→·,trail:·,nbsp:•
 
 "indent with 4 spaces instead of time
 set shiftwidth=4
-set softtabstop=4;
+set softtabstop=4
 set expandtab
 
 "enable filetype detection
