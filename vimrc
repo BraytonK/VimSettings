@@ -21,10 +21,10 @@ runtime! debian.vim
 
 " Vim5 and later versions support syntax highlighting. Uncommenting the next
 " line enables syntax highlighting by default.
-if has("syntax")
-  syntax on
-endif
-
+"if has("syntax")
+"  syntax on
+"endif
+"
 " If using a dark background within the editing area and syntax highlighting
 " turn on this option as well
 "set background=dark
@@ -53,6 +53,7 @@ set number
 
 "show whitespace
 set listchars=eol:¬,tab:→·,trail:·,nbsp:•
+set list
 
 "indent with 4 spaces instead of time
 set shiftwidth=4
